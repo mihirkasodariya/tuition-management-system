@@ -1,0 +1,11 @@
+{
+  "welcomeStudentRegistrationTemplate": {
+    "message": {
+      "subject": "Welcome to the AcademIQ",
+      "text": "Welcome to the AcademIQ. We are glad to have you with us.",
+      "html": null
+    },
+    "fileName": "welcomeRegistration.template.html",
+    "dynamicDataKeys": ["student_name", "student_email", "student_password"]
+  }
+}

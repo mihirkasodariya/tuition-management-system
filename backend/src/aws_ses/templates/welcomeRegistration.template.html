@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Successful - Tuition Management System</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 30px 20px;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .content {
+        padding: 30px;
+      }
+      .details {
+        background-color: #f9f9f9;
+        border-left: 4px solid #000000;
+        padding: 15px;
+        margin: 20px 0;
+      }
+      .detail-item {
+        margin-bottom: 10px;
+      }
+      .detail-label {
+        font-weight: bold;
+        color: #000000;
+        display: inline-block;
+        width: 120px;
+      }
+      .footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #666666;
+      }
+      .button {
+        display: inline-block;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 4px;
+        margin: 20px 0;
+        font-weight: bold;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 25px 0;
+      }
+      .welcome-icon {
+        font-size: 48px;
+        text-align: center;
+        margin: 20px 0;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Welcome to AcademIQ.</h1>
+      </div>
+
+      <div class="content">
+        <div class="welcome-icon">🎓</div>
+
+        <p>Dear <strong>{{student_name}}</strong>,</p>
+
+        <p>
+          Congratulations! Your registration to our Tuition Management System
+          has been successfully completed.
+        </p>
+
+        <p>
+          You now have full access to your learning dashboard, where you can:
+        </p>
+        <ul>
+          <li>View your class schedule</li>
+          <li>Access learning materials</li>
+          <li>Submit assignments</li>
+          <li>Track your progress</li>
+          <li>Communicate with your teachers</li>
+        </ul>
+
+        <div class="details">
+          <h3>Your Login Credentials:</h3>
+
+          <div class="detail-item">
+            <span class="detail-label">Full Name:</span>
+            <span>{{student_name}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Email:</span>
+            <span>{{student_email}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Password:</span>
+            <span>{{student_password}}</span>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <p>
+          <strong>Important:</strong> For security reasons, we recommend
+          changing your password after your first login.
+        </p>
+
+        <center>
+          <a href="https://domain.com/login" class="button"
+            >Login to Your Account</a
+          >
+        </center>
+
+        <p>
+          If you encounter any issues or have questions about the platform,
+          please contact our support team at
+          <a href="mailto:support@tuitionmanagement.com"
+            >support@tuitionmanagement.com</a
+          >.
+        </p>
+
+        <p>
+          We're excited to have you on board and look forward to supporting your
+          learning journey!
+        </p>
+
+        <p>
+          Best regards,<br />
+          <strong>The Tuition Management Team</strong>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>© 2023 Tuition Management System. All rights reserved.</p>
+        <p>
+          If you didn't request this registration, please
+          <a
+            href="mailto:security@tuitionmanagement.com"
+            style="color: #000000; text-decoration: underline"
+            >contact our security team</a
+          >
+          immediately.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

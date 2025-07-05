@@ -1,0 +1,356 @@
+{
+  "template_1": {
+    "order": 2,
+    "templateSections": [
+      {
+        "type": "column",
+        "styleClassName": "grid gap-0 grid-cols-1",
+        "styles": {
+          "background": "#795548"
+        },
+        "properties": {
+          "containerType": "grid",
+          "columns": 1
+        },
+        "block": [
+          {
+            "index": 0,
+            "blockStyleClassName": "p-2 flex",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px",
+              "minHeight": "auto"
+            },
+            "subBlock": [
+              {
+                "type": "text",
+                "label": "Text",
+                "content": "Heading Text Element",
+                "styleClass": "",
+                "style": {
+                  "fontSize": "30px",
+                  "color": "#ffffff",
+                  "backgroundColor": "#fffff",
+                  "fontWeight": 700,
+                  "paddingLeft": "0px",
+                  "paddingRight": "0px",
+                  "paddingTop": "0px",
+                  "paddingBottom": "0px"
+                },
+                "outerStyle": {},
+                "uuid": "ad4ac2f8-b1e3-4c91-8fb7-d7c9841b90a3"
+              }
+            ],
+            "uuid": "4f1ee392-a238-457e-97cc-dd2367ec1c11"
+          }
+        ],
+        "uuid": "cc7ec068-8060-4863-ad67-abaf65cf4065"
+      },
+      {
+        "type": "row",
+        "styleClassName": "grid gap-0 grid-cols-1",
+        "styles": {},
+        "properties": {
+          "containerType": "grid",
+          "columns": 1
+        },
+        "block": [
+          {
+            "index": 0,
+            "blockStyleClassName": "p-2 flex flex-col",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px",
+              "minHeight": "auto"
+            },
+            "subBlock": [
+              {
+                "type": "divider",
+                "label": "Divider",
+                "content": "",
+                "styleClass": "",
+                "style": {
+                  "borderColor": "#000",
+                  "borderStyle": "solid",
+                  "borderTopWidth": "3px",
+                  "width": "100%",
+                  "marginTop": "7px",
+                  "marginBottom": "5px"
+                },
+                "outerStyle": {
+                  "alignItems": "center"
+                },
+                "uuid": "37c92119-0c89-4890-8b15-01c29e274df7"
+              }
+            ],
+            "uuid": "91a6dafb-418a-4955-8a48-1dfcd9641db6"
+          }
+        ],
+        "uuid": "407d1c40-aedd-4d56-a156-686ada5ff9fe"
+      },
+      {
+        "type": "column",
+        "styleClassName": "grid gap-0 grid-cols-2",
+        "styles": {},
+        "properties": {
+          "containerType": "grid",
+          "columns": 2
+        },
+        "block": [
+          {
+            "index": 0,
+            "blockStyleClassName": "p-2 flex",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px"
+            },
+            "subBlock": [
+              {
+                "type": "editor",
+                "label": "Text Editor",
+                "content": "<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; text-align: left; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">What is Lorem Ipsum?</h2><p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong><span>&nbsp;</span>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+                "styleClass": "",
+                "style": {},
+                "outerStyle": {},
+                "uuid": "6e8296a3-4149-4caa-b25e-c6442c881254"
+              }
+            ],
+            "uuid": "23cef9c2-bb41-4eab-aa83-9959831c7762"
+          },
+          {
+            "index": 1,
+            "blockStyleClassName": "p-2 flex",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px"
+            },
+            "subBlock": [
+              {
+                "type": "image",
+                "label": "Image",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOwRConBYl2t6L8QMOAQqa5FDmPB_bg7EnGA&s",
+                "alt": "Image",
+                "url": "#",
+                "styleClass": "",
+                "style": {
+                  "height": "auto",
+                  "width": "100%",
+                  "borderRadius": "8px",
+                  "marginLeft": "0px",
+                  "marginRight": "0px",
+                  "marginTop": "0px",
+                  "marginBottom": "0px"
+                },
+                "outerStyle": {},
+                "uuid": "1563b0c8-b3a1-4e02-8556-8515248b41b0"
+              }
+            ],
+            "uuid": "cadbbe8f-89a8-46d2-b3c4-9c6d772b15b9"
+          }
+        ],
+        "uuid": "7d29b6c3-be48-4abf-a56f-50e085d29aff"
+      },
+      {
+        "type": "column",
+        "styleClassName": "grid gap-0 grid-cols-2",
+        "styles": {
+          "background": "#ffffff"
+        },
+        "properties": {
+          "containerType": "grid",
+          "columns": 2
+        },
+        "block": [
+          {
+            "index": 0,
+            "blockStyleClassName": "p-2 flex",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px"
+            },
+            "subBlock": [
+              {
+                "type": "image",
+                "label": "Image",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOwRConBYl2t6L8QMOAQqa5FDmPB_bg7EnGA&s",
+                "alt": "Image",
+                "url": "#",
+                "styleClass": "",
+                "style": {
+                  "height": "auto",
+                  "width": "100%",
+                  "borderRadius": "8px",
+                  "marginLeft": "0px",
+                  "marginRight": "0px",
+                  "marginTop": "0px",
+                  "marginBottom": "0px"
+                },
+                "outerStyle": {},
+                "uuid": "dc52a403-b017-488f-b426-84d326f13723"
+              }
+            ],
+            "uuid": "ee93e6af-dc42-4907-94f3-7865194bb0a9"
+          },
+          {
+            "index": 1,
+            "blockStyleClassName": "p-2 flex",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px"
+            },
+            "subBlock": [
+              {
+                "type": "editor",
+                "label": "Text Editor",
+                "content": "<h2 style=\"margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; text-align: left; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">What is Lorem Ipsum?</h2><p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong><span>&nbsp;</span>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+                "styleClass": "",
+                "style": {},
+                "outerStyle": {},
+                "uuid": "d0cdb644-76e0-4df6-87a6-1420285a2649"
+              }
+            ],
+            "uuid": "af6cd7c8-ac1f-47db-9468-7096db780cf4"
+          }
+        ],
+        "uuid": "87cce556-c50f-4f9f-beb8-6067672c41e9"
+      },
+      {
+        "type": "column",
+        "styleClassName": "grid gap-0 grid-cols-1",
+        "styles": {},
+        "properties": {
+          "containerType": "grid",
+          "columns": 1
+        },
+        "block": [
+          {
+            "index": 0,
+            "blockStyleClassName": "p-2 flex",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px",
+              "minHeight": "auto"
+            },
+            "subBlock": [
+              {
+                "type": "divider",
+                "label": "Divider",
+                "content": "",
+                "styleClass": "",
+                "style": {
+                  "borderColor": "#000",
+                  "borderStyle": "solid",
+                  "borderTopWidth": "3px",
+                  "width": "100%",
+                  "marginTop": "5px",
+                  "marginBottom": "5px"
+                },
+                "outerStyle": {
+                  "alignItems": "center"
+                },
+                "uuid": "24c215d8-3430-418a-8512-ef41d27cd578"
+              }
+            ],
+            "uuid": "1d828661-7f69-4efe-b710-de85477d3ffa"
+          }
+        ],
+        "uuid": "60dad574-35bf-4ae8-bc82-e07e828824d1"
+      },
+      {
+        "type": "row",
+        "styleClassName": "grid gap-0 grid-cols-1",
+        "styles": {
+          "background": "#ffffff"
+        },
+        "properties": {
+          "containerType": "grid",
+          "columns": 1
+        },
+        "block": [
+          {
+            "index": 0,
+            "blockStyleClassName": "p-2 flex flex-col",
+            "blockStyles": {
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": "2px",
+              "flexWrap": "wrap",
+              "paddingTop": "2px",
+              "paddingBottom": "2px",
+              "paddingLeft": "2px",
+              "paddingRight": "2px",
+              "minHeight": "auto"
+            },
+            "subBlock": [
+              {
+                "label": "Button",
+                "type": "button",
+                "content": "Sample Button",
+                "url": "#",
+                "styleClass": "",
+                "style": {
+                  "color": "#fff",
+                  "backgroundColor": "#1f2937",
+                  "fontWeight": 500,
+                  "borderRadius": "8px",
+                  "fontSize": "14px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "outline": "none"
+                },
+                "outerStyle": {},
+                "uuid": "a1c97a94-0a8a-4ff2-8017-9ca80ce7ee02"
+              }
+            ],
+            "uuid": "84fe5e98-9b42-475e-a65d-d138cc4e81b7"
+          }
+        ],
+        "uuid": "e4b72110-f580-4320-82b8-a9cf2c1cb01c"
+      }
+    ]
+  }
+}

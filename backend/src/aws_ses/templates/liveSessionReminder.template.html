@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Session Reminder</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 25px;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .content {
+        padding: 30px;
+      }
+      .session-details {
+        background-color: #f9f9f9;
+        border-left: 4px solid #000000;
+        padding: 20px;
+        margin: 25px 0;
+      }
+      .detail-item {
+        margin-bottom: 12px;
+      }
+      .detail-label {
+        font-weight: bold;
+        color: #000000;
+        display: inline-block;
+        width: 100px;
+      }
+      .footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #666666;
+      }
+      .button {
+        display: inline-block;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 4px;
+        margin: 20px 0;
+        font-weight: bold;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 25px 0;
+      }
+      .calendar-icon {
+        font-size: 40px;
+        text-align: center;
+        margin: 15px 0;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Live Session Reminder</h1>
+      </div>
+
+      <div class="content">
+        <div class="calendar-icon">📅</div>
+
+        <p>Dear {{student_name}},</p>
+
+        <p>This is a reminder for your upcoming live learning session:</p>
+
+        <div class="session-details">
+          <div class="detail-item">
+            <span class="detail-label">Title:</span>
+            <span>{{session_summary}}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Description:</span>
+            <span>{{session_description}}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Date:</span>
+            <span>{{session_date}}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Time:</span>
+            <span>{{session_time}}</span>
+          </div>
+        </div>
+
+        <p>Please join the session using the link below:</p>
+
+        <center>
+          <a href="{{session_meet_link}}" target="_blank" class="button"
+            >Join Live Session</a
+          >
+        </center>
+
+        <div class="divider"></div>
+
+        <p><strong>Preparation:</strong></p>
+        <ul>
+          <li>Test your audio/video beforehand</li>
+          <li>Have your materials ready</li>
+          <li>Join 5 minutes early</li>
+        </ul>
+
+        <p>We look forward to seeing you there!</p>
+
+        <p>
+          Best regards,<br />
+          <strong>The Teaching Team</strong>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>© 2025 AcademIQ. All rights reserved.</p>
+        <p>
+          Need help?
+          <a
+            href="mailto:support@AcademIQ.com"
+            style="color: #000000; text-decoration: underline"
+            >Contact our support team</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "welcomeStudentRegistrationTemplate": {
+    "message": {
+      "subject": "Welcome to the AcademIQ",
+      "text": "Welcome to the AcademIQ. We are glad to have you with us.",
+      "html": null
+    },
+    "fileName": "welcomeRegistration.template.html",
+    "dynamicDataKeys": ["student_name", "student_email", "student_password"]
+  },
+
+  "liveSessionReminderTemplate": {
+    "message": {
+      "subject": "Live Session Reminder",
+      "text": "This is a reminder for your upcoming live learning session.",
+      "html": null
+    },
+    "fileName": "liveSessionReminder.template.html",
+    "dynamicDataKeys": [
+      "student_name",
+      "session_summary",
+      "session_description",
+      "session_date",
+      "session_time",
+      "session_meet_link"
+    ]
+  },
+
+  "attendanceReportTemplate": {
+    "message": {
+      "subject": "Attendance Report",
+      "text": "Here is your attendance report for the recent sessions.",
+      "html": null
+    },
+    "fileName": "attendanceReport.template.html",
+    "dynamicDataKeys": [
+      "student_name",
+      "subject_name",
+      "subject_chapter_name",
+      "subject_topic_name",
+      "subject_topic_progress",
+      "student_status",
+      "class_date",
+      "href_link"
+    ]
+  },
+
+  "contactFormResponseTemplate": {
+    "message": {
+      "subject": "Thankyou for contacting  us",
+      "text": "Thank you for reaching out to us. We have received your message and will get back to you soon.",
+      "html": null
+    },
+    "fileName": "contactFormResponse.template.html",
+    "dynamicDataKeys": [
+      "student_name",
+      "student_email",
+      "student_phone",
+      "student_class",
+      "student_preferred_timing"
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You for Contacting Us</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 0;
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+      }
+      .header {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 30px 20px;
+        text-align: center;
+        border-bottom: 4px solid #ffffff;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+      .content {
+        padding: 30px;
+      }
+      .details-card {
+        background-color: #fafafa;
+        border-left: 4px solid #000000;
+        padding: 20px;
+        margin: 25px 0;
+        border-radius: 0;
+      }
+      .detail-item {
+        margin-bottom: 12px;
+        display: flex;
+      }
+      .detail-label {
+        font-weight: 600;
+        color: #000000;
+        width: 150px;
+      }
+      .detail-value {
+        flex: 1;
+      }
+      .footer {
+        background-color: #000000;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #ffffff;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 30px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>THANK YOU FOR CONTACTING US</h1>
+      </div>
+
+      <div class="content">
+        <p>Dear {{student_name}},</p>
+
+        <p>
+          We've successfully received your inquiry and will contact you soon
+          according to your preferred timings.
+        </p>
+
+        <div class="details-card">
+          <h3 style="margin-top: 0; color: #000000; font-weight: 500">
+            YOUR DETAILS
+          </h3>
+
+          <div class="detail-item">
+            <span class="detail-label">Full Name:</span>
+            <span class="detail-value">{{student_name}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Email:</span>
+            <span class="detail-value">{{student_email}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Phone:</span>
+            <span class="detail-value">{{student_phone}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Class:</span>
+            <span class="detail-value">{{student_class}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Preferred Timing:</span>
+            <span class="detail-value">{{student_preferred_timing}}</span>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <p><strong>What happens next?</strong></p>
+        <ul style="padding-left: 20px; margin-top: 0">
+          <li>Our team will review your information</li>
+          <li>We'll contact you within 24 hours</li>
+          <li>Prepare any questions you may have</li>
+        </ul>
+
+        <p>
+          If you need immediate assistance, please call us at
+          <strong>8010142164</strong>.
+        </p>
+
+        <p>
+          Best regards,<br />
+          <strong>AcademIQ</strong>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>© 2025 AcademIQ. All rights reserved.</p>
+        <p>This is an automated message - please do not reply directly</p>
+      </div>
+    </div>
+  </body>
+</html>

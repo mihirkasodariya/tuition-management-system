@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Academic Progress Update</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 0;
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+      }
+      .header {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 30px 20px;
+        text-align: center;
+        border-bottom: 4px solid #ffffff;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+      .content {
+        padding: 30px;
+      }
+      .progress-container {
+        margin: 25px 0;
+      }
+      .progress-bar {
+        height: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        margin-top: 8px;
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+      }
+      .progress-fill {
+        height: 100%;
+        background-color: #000000;
+        width: 50%; /* Dynamic value */
+        text-align: center;
+        color: white;
+        font-size: 11px;
+        line-height: 20px;
+      }
+      .details-card {
+        background-color: #fafafa;
+        border-left: 4px solid #000000;
+        padding: 20px;
+        margin: 25px 0;
+        border-radius: 0;
+      }
+      .detail-item {
+        margin-bottom: 12px;
+        display: flex;
+      }
+      .detail-label {
+        font-weight: 600;
+        color: #000000;
+        width: 140px;
+      }
+      .detail-value {
+        flex: 1;
+      }
+      .footer {
+        background-color: #000000;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #ffffff;
+      }
+      .button {
+        display: inline-block;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 0;
+        margin: 25px 0;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        border: 1px solid #000000;
+        transition: all 0.3s ease;
+      }
+      .button:hover {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 30px 0;
+      }
+      .subject-badge {
+        display: inline-block;
+        background-color: #000000;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 0;
+        font-size: 14px;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+      }
+      .status-absent {
+        color: #000000;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .status-present {
+        color: #000000;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>ACADEMIC PROGRESS REPORT</h1>
+      </div>
+
+      <div class="content">
+        <p>Dear {{student_name}},</p>
+
+        <p>
+          Your current progress in
+          <span class="subject-badge">{{subject_name}}</span> is detailed below:
+        </p>
+
+        <div class="details-card">
+          <h3
+            style="
+              margin-top: 0;
+              color: #000000;
+              font-weight: 500;
+              letter-spacing: 0.5px;
+            "
+          >
+            PROGRESS DETAILS
+          </h3>
+
+          <div class="detail-item">
+            <span class="detail-label">Current Chapter:</span>
+            <span class="detail-value">{{subject_chapter_name}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Sub-Chapter:</span>
+            <span class="detail-value">{{subject_topic_name}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Completion:</span>
+            <span class="detail-value">{{subject_topic_progress}}%</span>
+          </div>
+
+          <div class="progress-container">
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                style="width: {{subject_topic_progress}}%"
+              ></div>
+              {{subject_topic_progress}} %
+            </div>
+          </div>
+        </div>
+
+        <div class="details-card">
+          <h3
+            style="
+              margin-top: 0;
+              color: #000000;
+              font-weight: 500;
+              letter-spacing: 0.5px;
+            "
+          >
+            ATTENDANCE RECORD
+          </h3>
+
+          <div class="detail-item">
+            <span class="detail-label">Subject:</span>
+            <span class="detail-value">{{subject_name}}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Status:</span>
+            <span class="detail-value status-absent">{{student_status}}</span>
+            <!-- Change to status-present for present status -->
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Last Class:</span>
+            <span class="detail-value">{{class_date}}</span>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <p><strong>Recommended Actions:</strong></p>
+        <ul>
+          <li>
+            Review the Prose Comprehension materials in your student portal
+          </li>
+          <li>Complete the pending assignments before next class</li>
+          <li>Attend the upcoming session to maintain your progress</li>
+        </ul>
+
+        <center>
+          <a href="{{href_link}}" class="button">ACCESS YOUR DASHBOARD</a>
+        </center>
+
+        <p>
+          For any questions regarding your progress or attendance, please
+          contact your instructor.
+        </p>
+
+        <p>
+          Sincerely,<br />
+          <strong>Tuition Management System</strong>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>© 2025 All Rights Reserved</p>
+        <p>This is an automated notification - please do not reply</p>
+      </div>
+    </div>
+  </body>
+</html>
