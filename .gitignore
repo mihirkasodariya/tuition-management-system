@@ -1,0 +1,6 @@
+
+backend/.env
+frontend/.env
+agent-backend/.env
+*.env
+*.zip

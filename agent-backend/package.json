@@ -1,0 +1,35 @@
+{
+  "name": "agent-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/google-genai": "^0.2.10",
+    "@langchain/openai": "^0.5.12",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "http-errors": "^2.0.0",
+    "langchain": "^0.3.27",
+    "mongoose": "^8.15.1",
+    "twilio": "^5.7.1",
+    "winston": "^3.17.0",
+    "zod": "^3.25.49"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

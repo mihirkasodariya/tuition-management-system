@@ -1,0 +1,4 @@
+node_modules
+# it will not upload any .txt files in the docker container
+*.txt
+.env
