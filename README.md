@@ -47,28 +47,6 @@ Here’s a professional, comprehensive README for your AcademIQ Tuition Manageme
 
 ---
 
-## 🖼️ Screenshots
-
-Here are a few screenshots of the system:
-
-![Screenshot_1](readmeImages/Screenshot_1.png)
-![Screenshot_2](readmeImages/Screenshot_2.png)
-![Screenshot_3](readmeImages/Screenshot_3.png)
-![Screenshot_4](readmeImages/Screenshot_4.png)
-![Screenshot_5](readmeImages/Screenshot_5.png)
-![Screenshot_6](readmeImages/Screenshot_6.png)
-![Screenshot_7](readmeImages/Screenshot_7.png)
-![Screenshot_8](readmeImages/Screenshot_8.png)
-![Screenshot_9](readmeImages/Screenshot_9.png)
-![Screenshot_10](readmeImages/Screenshot_10.png)
-![Screenshot_11](readmeImages/Screenshot_11.png)
-![Screenshot_12](readmeImages/Screenshot_12.png)
-![Screenshot_13](readmeImages/Screenshot_13.png)
-![Screenshot_14](readmeImages/Screenshot_14.png)
-![Screenshot_15](readmeImages/Screenshot_15.png)
-
----
-
 ## ⚙️ Tech Stack
 
 **Frontend:**
