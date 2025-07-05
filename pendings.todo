@@ -1,0 +1,20 @@
+-----------------------------------PENDING -------------------------------------------- 
+2. validations and core key validation in the create-enrollment api
+3. updating the chapter details
+8.
+9.
+10.
+11.
+-----------------------------------COMPLETED -------------------------------------------- 
+1.In enrollment after creating the new enrollment the date should be get updated data in the enrollment list
+4. adding a excel upload
+5. if there is no subject in the enrollment then submit button should not be visible
+6. class is not updating in the student details.
+7. on initial state class and boardType is not getting
+4. if there is the studentsList and student is created then need to update the studentList data.
+
+
+
+#Docker running compose file
+for docker builder => docker-compose up --build
+for running compose file => docker-compose up

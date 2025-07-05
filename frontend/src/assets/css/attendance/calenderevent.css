@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rbc-event {
+  @apply bg-white text-white;
+}
+.rbc-event.rbc-selected {
+  @apply bg-white;
+}
+
+.rbc-event:hover {
+  @apply bg-gray-600;
+}
+
+.rbc-today {
+  @apply bg-green-100;
+}

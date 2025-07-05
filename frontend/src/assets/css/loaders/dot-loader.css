@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dot-loader1 {
+    @apply w-[13.4px] h-[13.4px] rounded-full;
+    clip-path: inset(-50.4px);
+    box-shadow:
+      -67.2px 16.8px,
+      -67.2px 16.8px,
+      -67.2px 16.8px;
+    transform: translateY(-16.8px);
+    animation: dots-animation 1s infinite linear;
+  }
+
+  @keyframes dots-animation {
+    16.67% {
+      box-shadow:
+        -67.2px 16.8px,
+        -67.2px 16.8px,
+        21.3px 16.8px;
+    }
+    33.33% {
+      box-shadow:
+        -67.2px 16.8px,
+        0px 16.8px,
+        21.3px 16.8px;
+    }
+    40%,
+    60% {
+      box-shadow:
+        -21.3px 16.8px,
+        0px 16.8px,
+        21.3px 16.8px;
+    }
+    66.67% {
+      box-shadow:
+        -21.3px 16.8px,
+        0px 16.8px,
+        67.2px 16.8px;
+    }
+    83.33% {
+      box-shadow:
+        -21.3px 16.8px,
+        67.2px 16.8px,
+        67.2px 16.8px;
+    }
+    100% {
+      box-shadow:
+        67.2px 16.8px,
+        67.2px 16.8px,
+        67.2px 16.8px;
+    }
+  }
+}

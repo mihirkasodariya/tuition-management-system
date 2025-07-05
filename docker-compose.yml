@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    # for adding environment variables  
+    # environment:
+    #   - VITE_DEVELOPMENT_MODE = development
+    #   - VITE_SERVER_URL_API = https://tutuion-management-backend.vercel.app
+    #   - VITE_ENCRYPTION_KEY = B9gUKXR2qBzr8aTFPxOOoQqLyXAU2fZO
+
+    # envs for the file
+    env_file:
+      - ./frontend/.env
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    # environment:
+    #   - NODE_ENV=production
+    #   - DATABASE_URL=your_database_url_if_any
+    env_file:
+      - ./backend/.env
+    # volumes:
+    #   - ./backend:/app
+    #   - /app/node_modules
+    restart: unless-stopped
